@@ -67,9 +67,11 @@ a{
     cursor: pointer;
 }
 a:hover{
-    color: rgb(255, 255, 36);
-    padding: 10px;
-    border: 2px solid yellow;
+    /* color: #dcdddf ; */
+    padding: 6px;
+    border: 2px solid #737476 ;
+    /* background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); */
+
 }
 
 /* css for banner */
@@ -100,7 +102,6 @@ a:hover{
     border-radius: 50%;
 }
 .banner_title{
-    height:200px;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -124,6 +125,7 @@ a:hover{
     /* background-color: red; */
     padding-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .about_title{
@@ -151,6 +153,8 @@ a:hover{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(226, 231, 152);
+    box-shadow: 0 6px 15px rgba(25, 26, 26, 0.475);
+    border-radius: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -193,6 +197,7 @@ a:hover{
     height: auto;
     font-weight: 300;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     
 }
 .about_card:hover{
@@ -275,6 +280,9 @@ a:hover{
     background-color: rgba(222, 229, 233, 0.747);
     overflow: hidden;
     border-radius: 10px;
+    box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
+    border-radius: 16px;
+
 }
 .project_image{
     width: 100%;
@@ -348,16 +356,20 @@ a:hover{
     display: flex;
     justify-content:start;
     padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .skill_page{
     padding: 20px;
     height:auto;
     width:50%;
-    background-color: rgba(211, 211, 211, 0.521);
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     display: flex;
     flex-direction: column;
     row-gap: 2px;
+    box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
+    border-radius: 16px;
 }
 
 .skill_one{
@@ -415,7 +427,7 @@ a:hover{
 .footer{
     height: 200px;
     width: 100%;
-    background: rgba(223, 214, 214, 0.425);
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 .footer_name{
     padding-top: 15px;
